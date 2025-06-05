@@ -58,8 +58,8 @@ export default function Home() {
             <div className="relative w-full max-w-4xl h-48 overflow-hidden">
               <Threads
                 color={isDark ? [1, 1, 1] : [0, 0, 0]}
-                amplitude={1}
-                distance={0}
+                amplitude={2}
+                distance={0.3}
                 enableMouseInteraction={true}
                 className="w-full h-full"
               />
